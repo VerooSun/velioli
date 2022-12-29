@@ -12,14 +12,14 @@ body {
     background-repeat: no-repeat;}
 h1 {
     font-family: "Rubik Vinyl", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 96px;
+    font-size: 9vw;
     ;
     color: green;
     
 }
 h4 {
     font-family: 'Seymour One', sans-serif;
-    
+    font-size: 2vw;
     color: rgba(43, 80, 5, 0.945);
 }
 .title {
@@ -30,20 +30,13 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
     border: 2px solid rgb(32, 36, 1);
     border-radius: 10px;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffc918, 0 0 30px #ffc918, 0 0 40px #ffc918, 0 0 55px #ffc918, 0 0 75px #ffc918
 }
-/*.title:hover {
-    scale: 105%;
-    
-    background-color: rgb(222, 245, 123);
-    transition: ease-in;
-    transition-delay: 0.03ms;
-    transition-duration: 0.5s;
-    
-}*/
+
 article {
     background-color: rgba(167, 137, 6, 0.527);
     padding: 3rem;
@@ -53,7 +46,7 @@ article {
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2vw;
     color: rgb(32, 36, 1);
     box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
     border: 2px solid rgb(32, 36, 1);
@@ -71,7 +64,7 @@ article {
     align-items: center;
     padding: 3rem;
     margin: 5rem;
-    font-size: 1.5rem;
+    font-size: 2vw;
     text-align: center;
     box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
     font-family: 'Raleway', sans-serif;
@@ -91,7 +84,7 @@ footer {
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2vw;
     text-align: center;
     box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
     color: rgb(32, 36, 1);
