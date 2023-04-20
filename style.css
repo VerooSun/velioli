@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@300&family=Rubik+Vinyl&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quattrocento+Sans&family=Raleway:wght@300&family=Rubik+Vinyl&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,49 +12,49 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;}
-h1 {
+/*h1 {
     font-family: "Rubik Vinyl", Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 9vw;
+    font-size: 9.5vw;
     ;
     color: green;
     
-}
+}*/
 h4 {
-    font-family: 'Seymour One', sans-serif;
-    font-size: 2vw;
-    color: rgba(43, 80, 5, 0.945);
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    /*text-shadow: 0 0 5px rgb(250, 94, 172), 0 0 5px #FFF, 0 0 5px #FFF, 0 0 2px #baf7c9, 0 0 3px #baf7c9, 0 0 4px #64fcb5, 0 0 5px #64fcb5, 0 0 5px #64fcb5;*/
 }
 .title {
-    background-color: rgba(167, 138, 6, 0.425);
-    padding: 3rem;
+    /*background-color: rgba(3, 119, 28, 0.425);*/
+    /*background-image: url(img/VelioliNewLogoBigger.png);*/
+    width: auto;
     margin: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
-    border: 2px solid rgb(32, 36, 1);
-    border-radius: 10px;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffc918, 0 0 30px #ffc918, 0 0 40px #ffc918, 0 0 55px #ffc918, 0 0 75px #ffc918
+    /*border: 2px solid rgb(1, 36, 10);*/
+    /*border-radius: 10px;*/
+    /*text-shadow: 0 0 5px rgb(250, 94, 172), 0 0 5px #FFF, 0 0 5px #FFF, 0 0 2px #baf7c9, 0 0 3px #baf7c9, 0 0 4px #64fcb5, 0 0 5px #64fcb5, 0 0 5px #64fcb5;*/
 }
 
 article {
-    background-color: rgba(167, 137, 6, 0.527);
+    background-color: rgba(3, 77, 31, 0.534);
     padding: 3rem;
     margin: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2vw;
-    color: rgb(32, 36, 1);
-    box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
-    border: 2px solid rgb(32, 36, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(1, 36, 10);
     border-radius: 10px;
     text-align: center;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffc918, 0 0 30px #ffc918, 0 0 40px #ffc918, 0 0 55px #ffc918, 0 0 75px #ffc918
+    /*text-shadow: 0 0 5px rgb(250, 94, 172), 0 0 5px #FFF, 0 0 5px #FFF, 0 0 2px #baf7c9, 0 0 3px #baf7c9, 0 0 4px #64fcb5, 0 0 5px #64fcb5, 0 0 5px #64fcb5;*/
     
 }
 .warning {
@@ -64,31 +66,29 @@ article {
     align-items: center;
     padding: 3rem;
     margin: 5rem;
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: center;
-    box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
-    font-family: 'Raleway', sans-serif;
-    color: rgb(32, 36, 1);
-    border: 2px solid rgb(32, 36, 1);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(1, 36, 10);
     border-radius: 10px;
     background-image: url(img/garlicDrawTile.png);
-    background-color: rgba(167, 137, 6, 0.527);
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffc918, 0 0 30px #ffc918, 0 0 40px #ffc918, 0 0 55px #ffc918, 0 0 75px #ffc918
+    background-color: rgba(3, 77, 31, 0.534);
+    /*text-shadow: 0 0 5px rgb(250, 94, 172), 0 0 5px #FFF, 0 0 5px #FFF, 0 0 2px #baf7c9, 0 0 3px #baf7c9, 0 0 4px #64fcb5, 0 0 5px #64fcb5, 0 0 5px #64fcb5;*/
 }
 footer {
-    background-color: rgba(167, 137, 6, 0.527);
+    background-color: rgba(3, 77, 31, 0.534);
     padding: 3rem;
     margin: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
-    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
     text-align: center;
-    box-shadow: 6px 6px 11px 4px rgb(32, 36, 1, 0.43);
-    color: rgb(32, 36, 1);
-    border: 2px solid rgb(32, 36, 1);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(1, 36, 10);
     border-radius: 10px;
-    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffc918, 0 0 30px #ffc918, 0 0 40px #ffc918, 0 0 55px #ffc918, 0 0 75px #ffc918
+    /*text-shadow: 0 0 5px rgb(250, 94, 172), 0 0 5px #FFF, 0 0 5px #FFF, 0 0 2px #baf7c9, 0 0 3px #baf7c9, 0 0 4px #64fcb5, 0 0 5px #64fcb5, 0 0 5px #64fcb5;*/
 }
