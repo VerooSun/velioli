@@ -27,17 +27,15 @@ h4 {
 }
 .title {
     /*background-color: rgba(3, 119, 28, 0.425);*/
-    /*background-image: url(img/VelioliNewLogoBigger.png);*/
-    width: auto;
+    
     margin: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /*border: 2px solid rgb(1, 36, 10);*/
-    /*border-radius: 10px;*/
-    /*text-shadow: 0 0 5px rgb(250, 94, 172), 0 0 5px #FFF, 0 0 5px #FFF, 0 0 2px #baf7c9, 0 0 3px #baf7c9, 0 0 4px #64fcb5, 0 0 5px #64fcb5, 0 0 5px #64fcb5;*/
+    border: 2px solid rgb(1, 36, 10);
+    border-radius: 10px;
 }
 
 article {
